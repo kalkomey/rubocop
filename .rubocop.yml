@@ -10,10 +10,16 @@ AllCops:
     - 'spec/**/mocked_params.rb'
 
 
+###############
+# Bundler
+###############
+
 Bundler/OrderedGems:
   Enabled: false
 
-
+###############
+# Gemspec
+###############
 
 Gemspec/OrderedDependencies:
   Enabled: false
@@ -21,9 +27,9 @@ Gemspec/OrderedDependencies:
 Gemspec/RequiredRubyVersion:
   Enabled: false
 
-
-
-
+###############
+# Layout
+###############
 
 Layout/AccessModifierIndentation:
   Enabled: false
@@ -244,9 +250,9 @@ Layout/TrailingEmptyLines:
 Layout/TrailingWhitespace:
   Enabled: false
 
-
-
-
+###############
+# Lint
+###############
 
 Lint/AmbiguousBlockAssociation:
   Enabled: false
@@ -422,6 +428,9 @@ Lint/UselessTimes:
 Lint/Void:
   Enabled: false
 
+###############
+# Metrics
+###############
 
 Metrics/AbcSize:
   Enabled: false
@@ -457,15 +466,16 @@ Metrics/ParameterLists:
 Metrics/PerceivedComplexity:
   Enabled: false
 
-
-
-
+###############
+# Migration
+###############
 
 Migration/DepartmentName:
   Enabled: false
 
-
-
+###############
+# Naming
+###############
 
 Naming/AccessorMethodName:
   Enabled: false
@@ -501,8 +511,9 @@ Naming/VariableName:
 Naming/VariableNumber:
   Enabled: false
 
-
-
+###############
+# Security
+###############
 
 Security/Eval:
   Enabled: false
@@ -513,9 +524,9 @@ Security/Open:
 Security/YAMLLoad:
   Enabled: false
 
-
-
-
+###############
+# Style
+###############
 
 Style/AccessModifierDeclarations:
   Enabled: false
