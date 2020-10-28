@@ -15,6 +15,14 @@ Bundler/OrderedGems:
 
 
 
+Gemspec/OrderedDependencies:
+  Enabled: false
+
+Gemspec/RequiredRubyVersion:
+  Enabled: false
+
+
+
 
 
 Layout/AccessModifierIndentation:
@@ -23,13 +31,34 @@ Layout/AccessModifierIndentation:
 Layout/ArgumentAlignment:
   Enabled: false
 
+Layout/ArrayAlignment:
+  Enabled: false
+
+Layout/AssignmentIndentation:
+  Enabled: false
+
 Layout/BeginEndAlignment:
+  Enabled: false
+
+Layout/BlockAlignment:
+  Enabled: false
+
+Layout/BlockEndNewline:
   Enabled: false
 
 Layout/CaseIndentation:
   Enabled: false
 
+Layout/ClosingHeredocIndentation:
+  Enabled: false
+
+Layout/ClosingParenthesisIndentation:
+  Enabled: false
+
 Layout/CommentIndentation:
+  Enabled: false
+
+Layout/ConditionPosition:
   Enabled: false
 
 Layout/DefEndAlignment:
@@ -53,6 +82,12 @@ Layout/EmptyLineAfterMagicComment:
 Layout/EmptyLineBetweenDefs:
   Enabled: false
 
+Layout/EmptyLinesAroundAccessModifier:
+  Enabled: false
+
+Layout/EmptyLinesAroundArguments:
+  Enabled: false
+
 Layout/EmptyLinesAroundAttributeAccessor:
   Enabled: false
 
@@ -60,6 +95,9 @@ Layout/EmptyLinesAroundBlockBody:
   Enabled: false
 
 Layout/EmptyLinesAroundClassBody:
+  Enabled: false
+
+Layout/EmptyLinesAroundExceptionHandlingKeywords:
   Enabled: false
 
 Layout/EmptyLinesAroundMethodBody:
@@ -72,10 +110,16 @@ Layout/EndAlignment:
   Enabled: false
   EnforcedStyleAlignWith: variable
 
+Layout/EndOfLine:
+  Enabled: false
+
 Layout/ExtraSpacing:
   Enabled: false
 
 Layout/FirstArgumentIndentation:
+  Enabled: false
+
+Layout/FirstArrayElementIndentation:
   Enabled: false
 
 Layout/FirstHashElementIndentation:
@@ -84,13 +128,25 @@ Layout/FirstHashElementIndentation:
 Layout/HashAlignment:
   Enabled: false
 
+Layout/HeredocIndentation:
+  Enabled: false
+
 Layout/IndentationConsistency:
+  Enabled: false
+
+Layout/IndentationStyle:
   Enabled: false
 
 Layout/IndentationWidth:
   Enabled: false
 
+Layout/InitialIndentation:
+  Enabled: false
+
 Layout/LeadingCommentSpace:
+  Enabled: false
+
+Layout/LeadingEmptyLines:
   Enabled: false
 
 Layout/LineLength:
@@ -104,6 +160,15 @@ Layout/LineLength:
     - 'has_and_belongs_to_many :'
     - 'has_one :'
 
+Layout/MultilineArrayBraceLayout:
+  Enabled: false
+
+Layout/MultilineBlockLayout:
+  Enabled: false
+
+Layout/MultilineHashBraceLayout:
+  Enabled: false
+
 Layout/MultilineMethodCallBraceLayout:
   Enabled: false
 
@@ -116,10 +181,19 @@ Layout/MultilineOperationIndentation:
 Layout/ParameterAlignment:
   Enabled: false
 
+Layout/RescueEnsureAlignment:
+  Enabled: false
+
 Layout/SpaceAfterColon:
   Enabled: false
 
 Layout/SpaceAfterComma:
+  Enabled: false
+
+Layout/SpaceAfterMethodName:
+  Enabled: false
+
+Layout/SpaceAroundKeyword:
   Enabled: false
 
 Layout/SpaceAroundMethodCallOperator:
@@ -134,10 +208,19 @@ Layout/SpaceAroundEqualsInParameterDefault:
 Layout/SpaceBeforeBlockBraces:
   Enabled: false
 
+Layout/SpaceBeforeComma:
+  Enabled: false
+
 Layout/SpaceBeforeComment:
   Enabled: false
 
 Layout/SpaceBeforeFirstArg:
+  Enabled: false
+
+Layout/SpaceInLambdaLiteral:
+  Enabled: false
+
+Layout/SpaceInsideArrayLiteralBrackets:
   Enabled: false
 
 Layout/SpaceInsideBlockBraces:
@@ -146,7 +229,13 @@ Layout/SpaceInsideBlockBraces:
 Layout/SpaceInsideHashLiteralBraces:
   Enabled: false
 
+Layout/SpaceInsideParens:
+  Enabled: false
+
 Layout/SpaceInsidePercentLiteralDelimiters:
+  Enabled: false
+
+Layout/SpaceInsideStringInterpolation:
   Enabled: false
 
 Layout/TrailingEmptyLines:
@@ -159,6 +248,12 @@ Layout/TrailingWhitespace:
 
 
 
+Lint/AmbiguousBlockAssociation:
+  Enabled: false
+
+Lint/AmbiguousOperator:
+  Enabled: false
+
 Lint/AmbiguousRegexpLiteral:
   Enabled: false
 
@@ -168,7 +263,13 @@ Lint/AssignmentInCondition:
 Lint/BinaryOperatorWithIdenticalOperands:
   Enabled: false
 
+Lint/BooleanSymbol:
+  Enabled: false
+
 Lint/ConstantDefinitionInBlock:
+  Enabled: false
+
+Lint/DeprecatedClassMethods:
   Enabled: false
 
 Lint/DeprecatedOpenSSLConstant:
@@ -207,6 +308,18 @@ Lint/ImplicitStringConcatenation:
 Lint/IneffectiveAccessModifier:
   Enabled: false
 
+Lint/InterpolationCheck:
+  Enabled: false
+
+Lint/LiteralAsCondition:
+  Enabled: false
+
+Lint/Loop:
+  Enabled: false
+
+Lint/MissingCopEnableDirective:
+  Enabled: false
+
 Lint/MissingSuper:
   Enabled: false
 
@@ -214,6 +327,9 @@ Lint/MixedRegexpCaptureTypes:
   Enabled: false
 
 Lint/NonDeterministicRequireOrder:
+  Enabled: false
+
+Lint/NonLocalExitFromIterator:
   Enabled: false
 
 Lint/OutOfRangeRegexpRef:
@@ -231,13 +347,37 @@ Lint/RedundantCopDisableDirective:
 Lint/RedundantSafeNavigation:
   Enabled: false
 
+Lint/RedundantSplatExpansion:
+  Enabled: false
+
+Lint/RedundantStringCoercion:
+  Enabled: false
+
+Lint/RescueException:
+  Enabled: false
+
+Lint/ReturnInVoidContext:
+  Enabled: false
+
+Lint/SafeNavigationChain:
+  Enabled: false
+
+Lint/ScriptPermission:
+  Enabled: false
+
 Lint/SelfAssignment:
+  Enabled: false
+
+Lint/ShadowedArgument:
   Enabled: false
 
 Lint/ShadowingOuterLocalVariable:
   Enabled: false
 
 Lint/StructNewOverride:
+  Enabled: false
+  
+Lint/SuppressedException:
   Enabled: false
 
 Lint/TopLevelReturnWithArgument:
@@ -249,6 +389,12 @@ Lint/TrailingCommaInAttributeDeclaration:
 Lint/UnderscorePrefixedVariableName:
   Enabled: false
 
+Lint/UnifiedInteger:
+  Enabled: false
+
+Lint/UnreachableCode:
+  Enabled: false
+
 Lint/UnreachableLoop:
   Enabled: false
 
@@ -256,6 +402,9 @@ Lint/UnusedBlockArgument:
   Enabled: false
 
 Lint/UnusedMethodArgument:
+  Enabled: false
+
+Lint/UriEscapeUnescape:
   Enabled: false
 
 Lint/UselessAccessModifier:
@@ -302,10 +451,29 @@ Metrics/ModuleLength:
   CountComments: false # count full line comments?
   Max: 150
 
+Metrics/ParameterLists:
+  Enabled: false
+
 Metrics/PerceivedComplexity:
   Enabled: false
 
+
+
+
+
+Migration/DepartmentName:
+  Enabled: false
+
+
+
+
 Naming/AccessorMethodName:
+  Enabled: false
+
+Naming/AsciiIdentifiers:
+  Enabled: false
+
+Naming/HeredocDelimiterNaming:
   Enabled: false
 
 Naming/MemoizedInstanceVariableName:
@@ -323,8 +491,14 @@ Naming/PredicateName:
   Enabled: false
   Exclude:
     - '**/**/*_rule.rb'
+
+Naming/RescuedExceptionsVariableName:
+  Enabled: false
   
 Naming/VariableName:
+  Enabled: false
+
+Naming/VariableNumber:
   Enabled: false
 
 
@@ -333,7 +507,18 @@ Naming/VariableName:
 Security/Eval:
   Enabled: false
 
+Security/Open:
+  Enabled: false
 
+Security/YAMLLoad:
+  Enabled: false
+
+
+
+
+
+Style/AccessModifierDeclarations:
+  Enabled: false
 
 # Allow use of multiline curly brace blocks in specs (e.g. `expect {}.to` or `let(:foo) {}`)
 Style/AccessorGrouping:
@@ -351,6 +536,9 @@ Style/AndOr:
 Style/AsciiComments:
   Enabled: false
 
+Style/BarePercentLiterals:
+  Enabled: false
+
 Style/BisectedAttrAccessor:
   Enabled: false
 
@@ -360,14 +548,24 @@ Style/BlockComments:
 Style/BlockDelimiters:
   Exclude:
     - 'spec/**/*'
+  Enabled: false
+
+Style/CaseEquality:
+  Enabled: false
 
 Style/CaseLikeIf:
   Enabled: false
 
 Style/ClassAndModuleChildren:
   Enabled: false
+
+Style/ClassCheck:
+  Enabled: false
   
 Style/ClassEqualityComparison:
+  Enabled: false
+
+Style/ClassVars:
   Enabled: false
 
 Style/ColonMethodCall:
@@ -379,6 +577,9 @@ Style/CombinableLoops:
 Style/CommentAnnotation:
   Enabled: false
 
+Style/CommentedKeyword:
+  Enabled: false
+
 Style/ConditionalAssignment:
   Enabled: false
 
@@ -387,6 +588,12 @@ Style/Documentation:
   Enabled: false
 
 Style/EachWithObject:
+  Enabled: false
+
+Style/EmptyCaseCondition:
+  Enabled: false
+
+Style/EmptyElse:
   Enabled: false
 
 Style/EmptyLambdaParameter:
@@ -411,6 +618,18 @@ Style/ExplicitBlockArgument:
   Enabled: false
 
 Style/ExponentialNotation:
+  Enabled: false
+  
+Style/FloatDivision:
+  Enabled: false
+
+Style/For:
+  Enabled: false
+
+Style/FormatString:
+  Enabled: false
+
+Style/FormatStringToken:
   Enabled: false
 
 # Don't require the magic comment for Ruby 2.3
@@ -460,10 +679,31 @@ Style/Lambda:
   Enabled: false
   EnforcedStyle: literal
 
+Style/LambdaCall:
+  Enabled: false
+
 Style/MethodCallWithoutArgsParentheses:
   Enabled: false
 
+Style/MethodDefParentheses:
+  Enabled: false
+
 Style/MissingRespondToMissing:
+  Enabled: false
+
+Style/MixinUsage:
+  Enabled: false
+
+Style/ModuleFunction:
+  Enabled: false
+
+Style/MultilineBlockChain:
+  Enabled: false
+
+Style/MultilineIfModifier:
+  Enabled: false
+
+Style/MultilineIfThen:
   Enabled: false
 
 Style/MultilineTernaryOperator:
@@ -481,7 +721,16 @@ Style/NegatedIf:
 Style/NestedParenthesizedCalls:
   Enabled: false
 
+Style/NestedTernaryOperator:
+  Enabled: false
+
+Style/Next:
+  Enabled: false
+
 Style/NilComparison:
+  Enabled: false
+
+Style/NumericLiteralPrefix:
   Enabled: false
 
 Style/NumericLiterals:
@@ -514,10 +763,22 @@ Style/Proc:
 Style/RaiseArgs:
   Enabled: false
 
+Style/RandomWithOffset:
+  Enabled: false
+
 Style/RedundantAssignment:
   Enabled: false
 
 Style/RedundantBegin:
+  Enabled: false
+
+Style/RedundantCapitalW:
+  Enabled: false
+
+Style/RedundantCondition:
+  Enabled: false
+
+Style/RedundantConditional:
   Enabled: false
 
 Style/RedundantFetchBlock:
@@ -535,6 +796,9 @@ Style/RedundantInterpolation:
 Style/RedundantParentheses:
   Enabled: false
 
+Style/RedundantPercentQ:
+  Enabled: false
+
 Style/RedundantRegexpCharacterClass:
   Enabled: false
 
@@ -550,10 +814,25 @@ Style/RedundantSelf:
 Style/RedundantSelfAssignment:
   Enabled: false
 
+Style/RedundantSort:
+  Enabled: false
+
 Style/RegexpLiteral:
   Enabled: false
 
+Style/RescueModifier:
+  Enabled: false
+
+Style/RescueStandardError:
+  Enabled: false
+
+Style/Sample:
+  Enabled: false
+
 Style/SafeNavigation:
+  Enabled: false
+
+Style/SelfAssignment:
   Enabled: false
 
 Style/Semicolon:
@@ -565,10 +844,22 @@ Style/SignalException:
 Style/SingleArgumentDig:
   Enabled: false
 
+Style/SingleLineMethods:
+  Enabled: false
+
 Style/SlicingWithRange:
   Enabled: false
 
 Style/SoleNestedConditional:
+  Enabled: false
+
+Style/SpecialGlobalVars:
+  Enabled: false
+
+Style/StabbyLambdaParentheses:
+  Enabled: false
+
+Style/StderrPuts:
   Enabled: false
 
 Style/StringConcatenation:
@@ -578,6 +869,9 @@ Style/StringLiterals:
   Enabled: false
 
 Style/StringLiteralsInInterpolation:
+  Enabled: false
+
+Style/StructInheritance:
   Enabled: false
 
 Style/SymbolArray:
@@ -596,6 +890,15 @@ Style/TrailingCommaInArrayLiteral:
   Enabled: false
 
 Style/TrailingCommaInHashLiteral:
+  Enabled: false
+
+Style/TrivialAccessors:
+  Enabled: false
+
+Style/UnlessElse:
+  Enabled: false
+
+Style/WhileUntilDo:
   Enabled: false
 
 Style/WordArray:
