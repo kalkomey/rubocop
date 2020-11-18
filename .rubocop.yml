@@ -281,16 +281,28 @@ Lint/DeprecatedClassMethods:
 Lint/DeprecatedOpenSSLConstant:
   Enabled: false
 
+Lint/DuplicateBranch:
+  Enabled: false
+
 Lint/DuplicateElsifCondition:
   Enabled: false
 
 Lint/DuplicateMethods:
   Enabled: false
 
+Lint/DuplicateRegexpCharacterClassElement:
+  Enabled: false
+
 Lint/DuplicateRequire:
   Enabled: false
 
 Lint/DuplicateRescueException:
+  Enabled: false
+
+Lint/EmptyBlock:
+  Enabled: false
+
+Lint/EmptyClass:
   Enabled: false
 
 Lint/EmptyConditionalBody:
@@ -336,6 +348,9 @@ Lint/NonDeterministicRequireOrder:
   Enabled: false
 
 Lint/NonLocalExitFromIterator:
+  Enabled: false
+
+Lint/NoReturnInBeginEndBlocks: 
   Enabled: false
 
 Lint/OutOfRangeRegexpRef:
@@ -386,6 +401,9 @@ Lint/StructNewOverride:
 Lint/SuppressedException:
   Enabled: false
 
+Lint/ToEnumArguments: 
+  Enabled: false
+
 Lint/TopLevelReturnWithArgument:
   Enabled: false
 
@@ -396,6 +414,9 @@ Lint/UnderscorePrefixedVariableName:
   Enabled: false
 
 Lint/UnifiedInteger:
+  Enabled: false
+
+Lint/UnmodifiedReduceAccumulator: 
   Enabled: false
 
 Lint/UnreachableCode:
@@ -544,6 +565,9 @@ Style/AndOr:
   EnforcedStyle: always
   Enabled: false
   
+Style/ArgumentsForwarding: 
+  Enabled: false
+
 Style/AsciiComments:
   Enabled: false
 
@@ -579,6 +603,9 @@ Style/ClassEqualityComparison:
 Style/ClassVars:
   Enabled: false
 
+Style/CollectionCompact: 
+  Enabled: false
+
 Style/ColonMethodCall:
   Enabled: false
 
@@ -594,8 +621,10 @@ Style/CommentedKeyword:
 Style/ConditionalAssignment:
   Enabled: false
 
-# Don't complain about top-level class documentation comments.
 Style/Documentation:
+  Enabled: false
+
+Style/DocumentDynamicEvalDefinition: 
   Enabled: false
 
 Style/EachWithObject:
@@ -729,6 +758,9 @@ Style/MutableConstant:
 Style/NegatedIf:
   Enabled: false
 
+Style/NegatedIfElseCondition: 
+  Enabled: false
+
 Style/NestedParenthesizedCalls:
   Enabled: false
 
@@ -739,6 +771,9 @@ Style/Next:
   Enabled: false
 
 Style/NilComparison:
+  Enabled: false
+
+Style/NilLambda:
   Enabled: false
 
 Style/NumericLiteralPrefix:
@@ -885,6 +920,9 @@ Style/StringLiteralsInInterpolation:
 Style/StructInheritance:
   Enabled: false
 
+Style/SwapValues: 
+  Enabled: false
+  
 Style/SymbolArray:
   Enabled: false
 
