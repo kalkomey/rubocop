@@ -83,7 +83,7 @@ Layout/EmptyLineAfterGuardClause:
   Enabled: false
 
 Layout/EmptyLineAfterMagicComment:
-  Enabled: false
+  Enabled: true
 
 Layout/EmptyLineBetweenDefs:
   Enabled: false
@@ -413,6 +413,9 @@ Lint/TrailingCommaInAttributeDeclaration:
 Lint/UnderscorePrefixedVariableName:
   Enabled: false
 
+Lint/UnexpectedBlockArity:
+  Enabled: false
+
 Lint/UnifiedInteger:
   Enabled: false
 
@@ -672,9 +675,8 @@ Style/FormatString:
 Style/FormatStringToken:
   Enabled: false
 
-# Don't require the magic comment for Ruby 2.3
 Style/FrozenStringLiteralComment:
-  Enabled: false
+  Enabled: true
 
 Style/GlobalStdStream:
   Enabled: false
@@ -810,6 +812,9 @@ Style/RaiseArgs:
   Enabled: false
 
 Style/RandomWithOffset:
+  Enabled: false
+
+Style/RedundantArgument:
   Enabled: false
 
 Style/RedundantAssignment:

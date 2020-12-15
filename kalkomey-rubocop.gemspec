@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'kalkomey-rubocop'
-  s.version     = '1.0.0'
+  s.version     = '1.0.4'
   s.date        = '2020-12-02'
   s.summary     = 'Kalkomey\'s Rubocop Rules'
   s.description = 'Rubocop file used by Kalkomey''s projects.'
